@@ -57,3 +57,20 @@ console.log(h3);
 // => QuerySelector use for select the element using any CSS selector (ID, class, tag, etc.) and it will return the first matching element.
 // ➡️what does getelementbyclassname  return? is it an array?
 // => it return a HTMLCollection of all elements with the specified class name and its not an array but it can be converted into an array using Array.from() or spread operator [...]
+//  use QuerySelectorAll  to select all button with class buy-now",
+let buynow = document.querySelectorAll(".buy-now")
+console.log(buynow);
+//🎯 T1: Select the Heading Of a Page  By Id And Change its text to "Welcome To Sheriyansh"
+h2.textContent= "Welcome To Sheriyansh"
+
+// T2 🎯 select all <li> elements and print their text using a loop.
+let li = document.querySelectorAll("li")
+li.forEach(function(n){
+    console.log(n.textContent);
+})
+
+// ➡️ What is the Diffrence between innertext , textContent and innerHTMl ? 
+h2.innerHtml = "<i>hello guys whatsapp ? </i>"
+
+// h1.textContent = "hello guys whatsapp ?"
+
