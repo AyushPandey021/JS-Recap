@@ -31,12 +31,14 @@ console.log(src.getAttribute("alt"));
 
 // ⏭️ Dynamic Dom Manupulation
 let h2 = document.createElement("h2")
+let h3 = document.createElement("h3")
 h2.textContent= "hello guys whatsapp ?"
 
 //➡️ its dynamic Dom part create Element for select but not show add value help of textContent and append for value add in bottom and  prepend for show text in top 
-document.querySelector("body").append(h2)
+document.querySelector("body").prepend(h3)
 document.querySelector("body").append(h2)
 console.log(h2);
+console.log(h3);
 
 
 
