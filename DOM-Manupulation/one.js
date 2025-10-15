@@ -45,4 +45,15 @@ console.log(h3);
 
 
 
-
+// Pratice Questions ✅
+// ➡️ What is the DOM? how  does it represent thr HTML structure?
+// => this is Document Object Model and its represent HTML structure in tree format and all element are Node and its help to access and manupulate the HTML element using JavaScript
+//➡️ Diffrence between innerHTML, textContent, and innerText?
+// => innerHTML use for get and set the HTML content of an element and it can include HTML tags.
+// => textContent use for get and set the text content of an element and it will return all text including hidden elements.
+// => innerText use for get and set the visible text content of an element and it will not return hidden text.
+// ➡️what is the diffrence between getElementById and QuerySelector?
+// => getElementById use for select the element by its ID and it will return a single element.
+// => QuerySelector use for select the element using any CSS selector (ID, class, tag, etc.) and it will return the first matching element.
+// ➡️what does getelementbyclassname  return? is it an array?
+// => it return a HTMLCollection of all elements with the specified class name and its not an array but it can be converted into an array using Array.from() or spread operator [...]
