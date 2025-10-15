@@ -74,3 +74,45 @@ h2.innerHtml = "<i>hello guys whatsapp ? </i>"
 
 // h1.textContent = "hello guys whatsapp ?"
 
+// T3 select a paragaraph and replace its content with 
+{/* <b>Updates </b> by JavaScript  */}
+let p = document.querySelector("p")
+p.innerHTML = "<b>Updates </b> by JavaScript Replaced✅"
+// ➡️ select how do  you get the src of an image using Javascript ? 
+// getAttribute , setAttribute , removeAttribute  usecases
+
+let dog = document.querySelector(".dog")
+console.log(dog.getAttribute("src"));
+// select the anchor tag and change its href to "https://www.google.com"
+let link = document.querySelector("a")
+console.log(link.setAttribute("href", "https://portfolio1-77.vercel.app/")
+);
+//  ➡️ Add a title attribute to a div dynamically 
+let div = document.querySelector("div")
+console.log(div.setAttribute("title","View More"));
+
+// ➡️Remove the Disabled attribute from a button
+ let btn = document.querySelector("button")
+//  btn.removeAttribute("disabled")
+
+// Advanced Question ✅ 
+// Dynamic Dom Manupulation
+//➡️ What does createElement() do? What's returned ?
+// create one black node with no values
+let h1 = document.createElement("h1")
+console.log(h1);
+
+
+// ➡️whats the diffrence between append and prepend ?
+// append add the value in bottom of the selected element 
+// prepend add the value in top of the selected element
+
+// ➡️can you remove an element using removeChild() ?
+document.querySelector("ul").removeChild(document.querySelector("li"))
+// ➡️how do you change the style of an element using JavaScript ? 
+// using style property we can change the css property dynamically
+// ➡️create a new list item <li> new task </li> and add it to an existing ul with the id task-list
+let ul = document.querySelector("ul")
+let li1 = document.createElement("li")
+li1.textContent = "new task"
+ul.appendChild(li1)
