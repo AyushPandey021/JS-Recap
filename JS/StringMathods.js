@@ -86,3 +86,29 @@ k++
 
 }
 while(k<10)
+
+    // ➡️➡️ breake & Continue
+    // this loop in runing 12 to 23 my condition is if the loop i == to 15 so break it the condition. is called break
+    for(let i = 12;i <23; i++){
+        console.log(i);
+        if(i == 15){
+            console.log("15 is come end Break the statement ");
+            // break use to stop the loop 
+            break
+           
+            
+        }
+       
+    
+        
+    }
+    // continue
+    for(let l=5 ; l < 20 ; l++){
+         if(l == 16)
+        continue; 
+    // continue skip the loop 
+    console.log("16 skip and continue" ,l);
+  
+        
+
+    }
