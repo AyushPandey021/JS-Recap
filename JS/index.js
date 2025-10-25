@@ -30,3 +30,8 @@ if (age >=18){
 }
 let ap = age >=18 ? "ha" : "na";
 console.log(ap);
+
+let a = 20 
+let b = 20
+console.log(20 =="20" );
+
