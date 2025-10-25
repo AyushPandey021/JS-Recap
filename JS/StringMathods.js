@@ -35,21 +35,54 @@ let speed  = 20
 let p = speed > 18 ? "This statement is True " : "This Statement is False"
 console.log(p);
 //   ➡️➡️ switch case opreator
- switch(3){
-    case 1 :
-        console.log("This is One switch");
-        
+// match the case with any switch to code has been run but if not match any case to run the default code 
+switch("Ayush"){
+    case "yash":
+        console.log("I am Yash");
         break;
-    case 2:
-        console.log("This is Two switch");
-        
+    case "Krish":
+        console.log("I am Krish");
         break;
-    case 3:
-        console.log("This is Three switch");
-        
+    case "vivek":
+        console.log("I am Vivek");
         break;
-    default: 
-    console.log("Not Match switch ");
+    case "Ayush":
+        console.log("I am Aysuh");
+        break;
+        default:
+            console.log("Not Name has been matched");
+            
+        
+}
+// ➡️➡️ for  loop 
+//  for loop in array , is called dynamic loop also, its colling only the length of array its not fixed 
+let arr = [ 1,2,3,4,5]
+for(let a = 0; a<arr.length; a++){
+    console.log("hey from arr", a );}
+    // Normal intreation for loop 
+for(let x = 0 ; x<6; x++){
+    console.log("Count", x);
     
-    // 
- }
+}
+
+// ➡️➡️ while loop 
+ 
+// its runing until the true 
+let i = 1; // start
+
+while(i<12){
+    console.log(i);// code
+    
+    
+    
+    i++// change
+}
+
+// ➡️➡️ do while
+let k = 5
+do{
+console.log(" do is runing one time ", k);
+k++
+
+}
+while(k<10)
