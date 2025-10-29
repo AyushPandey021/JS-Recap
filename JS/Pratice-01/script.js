@@ -35,7 +35,7 @@ console.log("go back your seat ");
 // map is same as forEach but forEach not accept return keyword  in values and in map return is mandetory. without return not work map.
 // Map
 let  kp = [1,2,3,4,5,6]
-let ans = kp.map(function(val){
+let ans = kp.forEach(function(val){
     return "ayush" + val
 })
 console.log(ans);

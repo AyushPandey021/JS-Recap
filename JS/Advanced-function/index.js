@@ -33,7 +33,7 @@ var a = 5;// js me variable and functions unko js declearation wala part top me 
     console.log(b);
     console.log("IFFE the immediatly runing");
 })()
-// higher order function => ek aisa function ya to return kre function ya accept  kre function in perameter , ya to dono it is called higher order function 
+// higher order function 🎯=> ek aisa function ya to return kre function ya accept  kre function in perameter , ya to dono it is called higher order function 
 // ➡️ Interview Ans 
 // A Higher-Order Function is a function that can take another function as an argument, return a function, or both.
 // It allows us to write cleaner, reusable, and more flexible code — for example, map, filter, and reduce are built-in higher-order functions in JavaScript.

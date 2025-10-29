@@ -36,3 +36,25 @@ ul.addEventListener("click",function(dets){
 })
 
 // ➡️.event catureing => this  is opposite to event bubling  , bubling go child to perent , captureing perent to child
+
+// find the counts 
+let inp = document.querySelector("input")
+let spn = document.querySelector("span")
+let total = document.querySelector(".total")
+inp.addEventListener("input ",function(){
+    // spn.textContent = input.value.length
+    console.log("cliekd");
+    let left = 20 - inp.value.length
+    if(left < 0 ){
+        spn.textContent = left 
+        spn.style.color = "red"
+    }else{
+        spn.textContent  = left
+        spn.style.color  = "white"    }
+    
+
+   
+    
+})
+
+
