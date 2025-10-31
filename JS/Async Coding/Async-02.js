@@ -127,3 +127,15 @@ console.log(message);
 // A promies is an object in javascript that represents the eventual completion or failure in from of reslove & reject. 
 // its has 3 state , reslove , reject , pending it help to avoid collback , promies using to than for reslove , catch for reject , finally for pending 
 // ✅its perfrom  to  asynchronous task 
+
+
+
+
+app.get("/",(req,res)=>{
+    const user= [ 
+        {name: oneoone},
+        {name: oneoone},
+    ]
+
+   res.json(user)
+})

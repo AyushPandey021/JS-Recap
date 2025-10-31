@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .ap{
+        background: red;
+      }
+    </style>
+</head>
+<body>
+    <ul id="list">
+  <li  class="ap">Apple</li>
+  <li class="ap">Banana</li>
+  <li class="ap">Orange</li>
+</ul>
+
+<script>
+  document.getElementById('list').addEventListener('click', (event) => {
+    if (event.target.tagName === 'LI') {
+      console.log('You clicked:', event.target.textContent);
+    }
+  });
+</script>
+</body>
+</html>
