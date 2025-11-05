@@ -23,10 +23,7 @@
 
 console.log(ancor.getAttribute("href"));
 console.log(src.getAttribute("alt"));
-// ➡️getAttribute for get the value inside the values like  src href alt  in ancor tag
 
- console.log(  src.removeAttribute("src") );
-//  Remove Attribute for removeing Values src 
 
 
 // ⏭️ Dynamic Dom Manupulation
