@@ -61,21 +61,16 @@ console.log(distructure);
 
 
 
-let ages = [1,2,3,4]
-let [one, two, three, four ] = ages
+// let ages = [1,2,3,4]
+// let [one, two, three, four ] = ages
 
 
-console.log(one);
-console.log(two);
-console.log(three);
-console.log(four);
+// console.log(one);
+// console.log(two);
+// console.log(three);
+// console.log(four);
 
 
 // destructing is the feature in js that allow to you to get the values form array and define in value in new  seprate varible in short easy way.
 
 
-
-
-async function dp((res,rej)=>{
-    await 
-})
