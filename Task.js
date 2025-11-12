@@ -1,76 +1,143 @@
-class usr{
-constructor(fullname, place , number){
-    this.fullname =fullname,
-    this.place= place,
-    this.number = number
-}
+// Max
+function findmax(n) {
 
-say(){
-    console.log(`Your Fullname is : ${this.fullname} and you are from ${this.place} if i contact you so your contact number ${this.number}`);
+  let maxi = n[0]
+  for (let i = 0; i < n.length; i++) {
+    if (n[i] > maxi) {
+      maxi = n[i]
+    } }
+  return maxi}
+console.log(findmax([2, 3, 4, 5, 67, 354]));
+
+// Min
+function maxafind(a) {
+  let mini = a[0]
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] < mini) {
+      mini = a[i]
+    }
+  }
+  return mini
+}
+console.log(maxafind([3, 4, 2, 5, 46, 356, 3, 1]));
+
+
+function revaa(str){
+  let revi = ""
+  for(let i = str.length-1 ; i>=0;i--){
+    revi += str[i]
+
+  }
+if(revi === str){
+console.log("Pilimndron");
+
+  }else{
+    console.log("noo");
     
+  }
+
+  return revi
+}
+console.log(revaa("malylam"));
 
 
+
+// factorial
+
+function op(num){
+  let baap = 1  
+  for(let a = 1 ;a<= num;a++){
+    baap *= a
+  }
+  return baap
 }
 
+console.log("Factorial of Given Number :",op(5));
+
+function add_num(number){
+  let count = 0 
+  for(let b = 0 ;b<=number; b++){
+    count+=b
+  }
+  return count
+}
+console.log("Sum of Given Number :",add_num(5));
+
+
+// Vowel and Consonents
+
+function vov(val){
+  let vcount= 0 
+  let Vowels= "aeiouAEIOU"
+  let Ccount  = 0 
+  if(val === Vowels){
+    vcount++
+
+  }else if(val !== Vowels ){
+  Ccount++
+  }
+  
+  return{"Vowels":vcount,"Constonents":Ccount}
 
 }
-let user= new usr("Manas Rajan", "Odisha", 9744874158)
-user.say()
+console.log(vov("Ayush"));
+
+
+// sum of odd num Array 
+
+function sum_odd(valu){
+  let sumi = 0 
+  for(let i = 1; i<=valu; i++){
+    if (i%2 ==0) {
+      sumi +=i
+    }
+  }
+  return sumi
+}
+console.log(sum_odd(5));
+
+
+// 
+
+function po(o){
+  let x = 0 
+  while(o>0 ){
+let p = o%10
+x = x*10+p
+o = Math.floor(o/10)
+
+
+  }
+  return x 
+
+}
+console.log(po(345));
 
 
 
-// A constructor is a special function inside a class or constructor function that is automatically called when you create a new object using the new keyword.
-// It is used to initialize (assign) values to the object’s properties using the this keyword.
-// When you use new, JavaScript automatically creates a new object and links it to this.
-//➡️ Constructor + new + this = new object with initialized values
-
-
-
-// encapshulation 
-// innheritance
-// polymorphism 
-// abestraction
-
-let copy = ["Ayush", "kumar",["Kishore"]]
-const User = {
-  name: "Ayush",
-  address: { city: "Bhopal", state: "MP" }
-};
-
-// Deep copy using structuredClone
-const deepCopy = {...User}
-
-// let shollow =[...copy]
-// let = ={...obj}
-console.log(deepCopy);
-
-
-
-// distructureing
-
-
-const distructure = {class: "LowerClass", leng:"DownToEarth"}
-const lenguage = distructure.leng
-const classy = distructure.class
-console.log(lenguage);
-console.log(classy);
-console.log(distructure);
+// 
 
 
 
 
 
-
-// let ages = [1,2,3,4]
-// let [one, two, three, four ] = ages
+// 
 
 
-// console.log(one);
-// console.log(two);
-// console.log(three);
-// console.log(four);
+let a =10 
+
+let b =24
 
 
-// destructing is the feature in js that allow to you to get the values form array and define in value in new  seprate varible in short easy way.
+console.log(a,b);
 
 
+function dupli(d){
+  let  count = 0
+  let = new set()
+  if (d) {
+    
+  } else {
+    
+  }
+}
