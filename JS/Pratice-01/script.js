@@ -63,7 +63,7 @@ console.log(fans);
 
 // ➡️Reduce => 
 // reduce is the array mathod its conbine the all element in  array to single value, to performing maths opreations.its taka a collback fucntion with 2 permeter intialvalue , currentvalue ,its mosting performing mathametical opreation in array. 
-// Reduce🎯
+// Reduce🎯 
 let arr = [3,4,3,5,546,45,64]
 
 let rans= arr.reduce(function(val1 , val2){
